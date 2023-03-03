@@ -1,0 +1,47 @@
+
+.cardabout {
+    height: 80%;
+    width: 100%;
+    border-radius: 2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/assets/cardabout);
+    background-color: #242424;
+    
+    
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 400;
+    padding: 100px;
+}
+
+.wrapper{
+    text-align: center;
+    background-color: #242424;
+    font-family: 'Ovo', serif;
+    color: #e3dbdb;
+}
+
+.content{
+    display: inline-block;
+    width: 70%;
+    max-width: 1000px;
+    font-size: 25px;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+a{
+    color: #fad585;
+}
+
+.contact{
+    width: 350px;
+    max-width: 90%;
+    position: absolute;
+    margin: 50px;
+}

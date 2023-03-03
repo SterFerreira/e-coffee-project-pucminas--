@@ -1,0 +1,49 @@
+<app-header></app-header>
+<!-- Card 1 -->
+
+<mat-card>
+    <section class="ContainerCima">
+        <div>
+            <mat-card-title>
+                <h1 class="verm" id="quebraLinhaTitle">Alguns de nossos produtos:</h1>
+            </mat-card-title>
+            <mat-card-subtitle>
+                <p id="quebraLinha" style="color: black;">Conheça nossos produtos aparecendo de forma sortida, para se ter um gostinho do nosso café.</p>
+                
+            </mat-card-subtitle>
+        </div>
+        <div (click)="abre_mod()">
+           <img src="../../../assets/img1.png" alt="Img do Produto mais vendido" class="img">
+        </div>
+        <div>
+            <img id="img2" src="../../../assets/img1.png" alt="img do Segundo Produto mais vendido" class="img2"
+                (click)="troca()">
+            <img id="img3" src="../../../assets/cafeDesnho.png" alt="img do Terceiro Produto mais vendido" class="img2"
+                (click)="troca2()">
+        </div>
+    </section>
+</mat-card>
+
+
+
+<br>
+<!-- Card 2 -->
+<mat-card>
+    <section class="Container">
+        <div>
+           <img mat-card-image (click)="abre_mod()" src="../../../assets/cafeDesnho2.png" alt="img produto mais votado" class="imagem">
+        </div>
+        <div>
+            <img mat-card-image (click)="abre_mod()" src="../../../assets/cafeDesnho3.png" alt="img produto mais votado" class="imagem">
+            <p></p>
+        </div>
+        <div>
+            <img mat-card-image (click)="abre_mod()" src="../../../assets/cafeDesnho4.png" alt="img produto mais votado" class="imagem">
+            <p></p>
+        </div>
+
+    </section>
+</mat-card>
+<br><br>
+<app-footer style="display: none;"></app-footer>
+<app-cart-sidenav></app-cart-sidenav>

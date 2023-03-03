@@ -1,0 +1,20 @@
+.products{
+    display: inline-flex;
+    flex-flow: wrap;
+}
+
+.product{
+    height: 180px;
+    width: 200px;
+    margin: 10px;
+   
+}
+
+.wrapperImg{
+    text-align: center;
+}
+
+.wrapperImg > img{
+    height: 100px;
+    width: auto;
+}

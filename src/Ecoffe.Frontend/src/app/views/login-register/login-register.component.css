@@ -1,0 +1,82 @@
+
+
+.mat-card {
+    margin: 20px;
+    width: 380px;
+    background-color: #EEE6E7;
+    display: inline-block;
+    text-align: start;
+}
+
+.mat-form-field{
+    width: 100%
+}
+
+.wrapper{
+    text-align: center;
+}
+
+
+body {
+    background-color: #0B4161;
+    font-family: 'Ovo', serif;
+}
+
+button{
+    width: 100px;
+    height: 45px;
+    float: right;
+    font-family: 'Ovo', serif;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Ovo', serif;
+}
+
+.img_footer {
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../../../assets/Rectangle239.png);
+    background-color: #0B4161;
+}
+
+.messageError{
+    color: rgb(255, 89, 89);
+    width: 70%;
+    word-wrap: break-word;
+    float: left;
+}
+
+@media (max-width: 450px) {
+    .messageError{
+        width: 100%;
+    }
+
+    button{
+        margin-top: 10px;
+    }
+}
+
+.wrapper > .mat-card:first-of-type{
+    bottom: 229px;
+}
+
+@media (max-width: 923px) {
+    .wrapper > .mat-card:first-of-type{
+        bottom: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .mat-card{
+        width: 80%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
